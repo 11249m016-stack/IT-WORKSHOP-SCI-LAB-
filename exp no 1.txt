@@ -1,0 +1,11 @@
+clc;
+clear;
+
+a = input("Enter first number: ");
+b = input("Enter second number: ");
+
+disp("Addition = " + string(a+b));
+disp("Subtraction = " + string(a-b));
+disp("Multiplication = " + string(a*b));
+disp("Division = " + string(a/b));
+disp("Remainder = " + string(modulo(a,b)));
